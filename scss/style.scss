@@ -30,3 +30,28 @@ body {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    #showcase {
+        min-height: 600px;
+
+        h1 {
+            font-size: 4rem;
+        }
+    }
+}
