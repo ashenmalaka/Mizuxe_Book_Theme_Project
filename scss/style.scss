@@ -14,5 +14,19 @@ body {
         font-size: 1.4rem;
         padding-right: 1.4rem;
     }
+}
 
+#showcase {
+    position: relative;
+    background: url(../images/mountains.jpg);
+    min-height: 600px;
+
+    .primary-overlay {
+        background: $primary-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
 }
